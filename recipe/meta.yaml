@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -38,6 +38,8 @@ test:
 
 about:
   summary: A performant NumPy extension for Galois fields and their applications
+  description: |
+    A performant NumPy extension for Galois fields and their applications.
   home: https://pypi.org/project/galois/
   dev_url: https://github.com/mhostetter/galois
   license: MIT
