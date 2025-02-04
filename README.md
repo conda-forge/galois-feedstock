@@ -11,6 +11,9 @@ Summary: A performant NumPy extension for Galois fields and their applications
 
 Development: https://github.com/mhostetter/galois
 
+A performant NumPy extension for Galois fields and their applications.
+
+
 Current build status
 ====================
 
