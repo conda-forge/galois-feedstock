@@ -149,4 +149,5 @@ Feedstock Maintainers
 =====================
 
 * [@project-alex22](https://github.com/project-alex22/)
+* [@mhostetter](https://github.com/mhostetter/)
 
