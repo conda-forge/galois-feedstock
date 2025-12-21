@@ -1,5 +1,5 @@
 {% set name = "galois" %}
-{% set version = "0.4.8" %}
+{% set version = "0.4.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/galois-{{ version }}.tar.gz
-  sha256: 84441d7e79fcaa493e6364ab0eccdd7fcda116bc1151e68b2c312ebcad8ac927
+  sha256: 312aff381ce94c0da3b8d7b8c195c1ed14bcf4c355c09cada101601e6d414075
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
